@@ -1,0 +1,16 @@
+List<String> list = new ArrayList<String>();
+        list.add("Apple");
+        list.add("Orange");
+        list.add("Banana");
+        list.forEach(
+                (name) -> {
+                    System.out.println(name);
+                }
+        );
+
+List<String> nameList   = new ArrayList<>(
+            Arrays.asList("USA", "USSR", "UK"));
+
+ nameList.forEach((v) -> System.out.println(v));
+
+ list.stream().map(e -> e + 1); // Ca
