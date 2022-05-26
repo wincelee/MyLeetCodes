@@ -187,8 +187,8 @@ class ListsOperations {
         System.out.println(ANSI_YELLOW + "ItemsList" + new GsonBuilder().setPrettyPrinting()
                 .create().toJson(itemList));
 
-        System.out.println(ANSI_YELLOW + "ItemTitlesUsingStream" + new GsonBuilder().setPrettyPrinting()
-                .create().toJson(itemTitles));
+        /*System.out.println(ANSI_YELLOW + "ItemTitlesUsingStream" + new GsonBuilder().setPrettyPrinting()
+                .create().toJson(itemTitles));*/
 
         System.out.println(ANSI_BLUE + "PersonsListMaxBalance:" + totalBalanceFemale);
 
