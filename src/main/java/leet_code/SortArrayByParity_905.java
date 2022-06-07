@@ -7,40 +7,69 @@ public class SortArrayByParity_905 {
 
         int[] nums = {3, 1, 2, 4};
 
-        System.out.println("sortArrayByParityResult: " + Arrays.toString(sortArrayByParity(nums)));
+        //System.out.println("sortArrayByParityResult: " + Arrays.toString(sortArrayByParity(nums)));
+        System.out.println("sortArrayByParity2Result: " + Arrays.toString(sortArrayByParity2(nums)));
 
     }
 
     public static int[] sortArrayByParity(int[] nums){
 
-        int l = 0, r = nums.length - 1;
+        int leftIndex = 0, rightIndex = nums.length - 1;
 
-        System.out.println("nums[4] before while loop is currently: " + nums[4]);
-
-        while (l < r){
-            while (l < r && nums[l] % 2 == 0){
+        while (leftIndex < rightIndex){
+            while (leftIndex < rightIndex && nums[leftIndex] % 2 == 0){
                 System.out.println("----------------------------------");
-                System.out.println("LeftIsCurrently: " + l);
-                System.out.println("RightIsCurrently: " + r);
-                System.out.println("nums[l] is currently: " + nums[l]);
+                System.out.println("LeftIsCurrently: " + leftIndex);
+                System.out.println("RightIsCurrently: " + rightIndex);
+                System.out.println("nums[l] is currently: " + nums[leftIndex]);
                 System.out.println("----------------------------------");
-                l++;
+                leftIndex++;
             }
-            while (l < r && nums[r] % 2 == 1){
+            while (leftIndex < rightIndex && nums[rightIndex] % 2 == 1){
                 System.out.println("----------------------------------");
-                System.out.println("LeftIsCurrently: " + l);
-                System.out.println("RightIsCurrently: " + r);
-                System.out.println("nums[r] is currently: " + nums[r]);
+                System.out.println("LeftIsCurrently: " + leftIndex);
+                System.out.println("RightIsCurrently: " + rightIndex);
+                System.out.println("nums[r] is currently: " + nums[rightIndex]);
                 System.out.println("----------------------------------");
-                r--;
+                rightIndex--;
             }
-            int temp = nums[l];
+            int temp = nums[leftIndex];
 
-            nums[l] = nums[r];
-            nums[r] = temp;
+            nums[leftIndex] = nums[rightIndex];
+            nums[rightIndex] = temp;
 
         }
 
         return  nums;
+    }
+
+    public static int[] sortArrayByParity2(int[] nums){
+
+        // p1 is pointer 1
+        // p2 is pointer
+        int p1 = 0, p2 = nums.length - 1;
+
+        // this pointer will continue executing as long as pointer 1 has not met pointer 2
+        // while will stop when pointer 1 meets pointer 2
+        while (p1 < p2){
+
+            if(nums[p1] % 2 > nums[p2] % 2){
+                int temp = nums[p1];
+                nums[p1] = nums[p2];
+                nums[p2] = temp;
+            }
+
+            if(nums[p1] % 2 == 0){
+                p1++;
+            }
+
+            if (nums[p2] % 2 == 1){
+                p2--;
+            }
+
+        }
+
+        return nums;
+
     }
 }
