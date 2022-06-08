@@ -1,4 +1,4 @@
-package leet_code;
+package leet_code_quizes;
 
 import java.util.Arrays;
 

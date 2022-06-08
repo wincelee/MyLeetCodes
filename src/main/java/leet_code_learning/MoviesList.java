@@ -1,8 +1,6 @@
-package leet_code;
+package leet_code_learning;
 
 import classes.Movie;
-
-import java.util.Arrays;
 
 public class MoviesList {
 

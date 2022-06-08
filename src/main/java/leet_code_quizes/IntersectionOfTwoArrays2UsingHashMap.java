@@ -1,6 +1,4 @@
-package leet_code;
-
-import com.google.gson.Gson;
+package leet_code_quizes;
 
 import java.util.*;
 
