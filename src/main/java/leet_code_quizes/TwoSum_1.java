@@ -6,9 +6,11 @@ import java.util.HashMap;
 public class TwoSum_1 {
 
     public static void main(String[] args) {
-        int[] nums = {2,7,11,15};
+        //int[] nums = {2,7,11,15};
+        int[] nums = {3,3};
 
-        int target = 9;
+        //int target = 9;
+        int target = 6;
 
         System.out.println("TwoSum: " + Arrays.toString(twoSum(nums, target)));
 
