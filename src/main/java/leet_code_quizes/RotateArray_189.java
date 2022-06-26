@@ -12,6 +12,12 @@ public class RotateArray_189 {
 
         int k = 3;
 
+        int numsLength = nums.length;
+
+        if (k > numsLength){
+            k = k % numsLength;
+        }
+
         reverseArr(nums, 0, nums.length -1);
         reverseArr(nums, k, nums.length -1);
         reverseArr(nums, 0, k - 1);
