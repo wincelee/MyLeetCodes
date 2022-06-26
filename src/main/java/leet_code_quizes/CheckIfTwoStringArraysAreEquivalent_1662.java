@@ -7,6 +7,11 @@ public class CheckIfTwoStringArraysAreEquivalent_1662 {
     public static void main(String[] args) {
 
         System.out.println("AreArrayStringsEqual: " + arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"}));
+        System.out.println("AreArrayStringsEqualUsingOneLine: " + arrayStringsAreEqualUsingOneLine(new String[]{"ab", "c"}, new String[]{"a", "bc"}));
+        System.out.println("arrayStringsAreEqualUsingArraysToStringReplacement: " + arrayStringsAreEqualUsingArraysToStringReplacement(new String[]{"ab", "c"}, new String[]{"a", "bc"}));
+
+
+
 
     }
 
@@ -15,20 +20,25 @@ public class CheckIfTwoStringArraysAreEquivalent_1662 {
         String finalWord1 = "";
         String finalWord2 = "";
 
-        for (int i =0; i < word1.length; i++) {
+        for (int i = 0; i < word1.length; i++) {
             finalWord1 = finalWord1 + word1[i];
         }
 
-        for (int i =0; i < word2.length; i++){
+        for (int i = 0; i < word2.length; i++) {
             finalWord2 = finalWord2 + word2[i];
         }
 
-        return  finalWord1.equals(finalWord2);
+        return finalWord1.equals(finalWord2);
 
     }
 
     public static boolean arrayStringsAreEqualUsingOneLine(String[] word1, String[] word2) {
         return String.join("", word1).equals(String.join("", word2));
+    }
+
+    public static boolean arrayStringsAreEqualUsingArraysToStringReplacement(String[] word1, String[] word2) {
+        return Arrays.toString(word1).replace(",", "").replace("[", "").replace("]", "").replace(" ", "")
+                .equals(Arrays.toString(word2).replace(",", "").replace("[", "").replace("]", "").replace(" ", ""));
     }
 
 }
