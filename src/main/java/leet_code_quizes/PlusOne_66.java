@@ -6,28 +6,36 @@ public class PlusOne_66 {
 
     public static void main(String[] args) {
 
-        //System.out.println("ArrayPlusOne" + Arrays.toString(plusOne(new int[]{1,2,3})));
+        int[] digits = {1,2,3};
+        int[] digits2 = {9, 9, 9};
 
-        int[][] arr = {{1,2,3},
-                {4,5,6}};
-
-        int[] finalArr = new int[arr.length];
-
-        for (int i = 0; i < arr.length; i++){
-
-        }
-
-        System.out.println("Print 2D Array" + Arrays.deepToString(arr));
+        System.out.println("IncrementingDigits: " + Arrays.toString(plusOne(digits)));
+        System.out.println("IncrementingDigits2: " + Arrays.toString(plusOne(digits2)));
 
     }
 
     public static int[] plusOne(int[] digits) {
 
-        int temp = digits[digits.length-1]+1;
+        int digitsLength = digits.length;
 
-        digits[digits.length-1] = digits[temp];
+        for (int i = digitsLength - 1; i >= 0; i--) {
 
-        return digits;
+            if (digits[i] < 9) {
+                digits[i] += 1;
+                // or
+                // digits[i]++;
+                return digits;
+            }
+
+            digits[i] = 0;
+
+        }
+
+        int[] temp = new int[digitsLength + 1];
+
+        temp[0] = 1;
+
+        return temp;
 
     }
 }
