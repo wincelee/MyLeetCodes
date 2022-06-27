@@ -16,22 +16,22 @@ public class MaximumSumSubArray_53 {
 
     public static int maxSubArray(int[] nums) {
 
-        int currsum = nums[0];
-        int totalsum = nums[0];
+        int currSum = nums[0];
+        int totalSum = nums[0];
 
         for(int i = 1; i<nums.length; i++){
-            if(currsum>0){
-                currsum += nums[i];
+            if(currSum>0){
+                currSum += nums[i];
             }else{
-                currsum = nums[i];
+                currSum = nums[i];
             }
 
-            if(currsum>totalsum){
-                totalsum = currsum;
+            if(currSum>totalSum){
+                totalSum = currSum;
             }
         }
 
-        return totalsum;
+        return totalSum;
 
     }
 
