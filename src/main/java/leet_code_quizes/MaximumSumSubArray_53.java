@@ -17,7 +17,7 @@ public class MaximumSumSubArray_53 {
     public static int maxSubArray(int[] nums) {
 
         int currSum = nums[0];
-        int totalSum = nums[0];
+        int maxSum = nums[0];
 
         for(int i = 1; i<nums.length; i++){
             if(currSum>0){
@@ -26,12 +26,12 @@ public class MaximumSumSubArray_53 {
                 currSum = nums[i];
             }
 
-            if(currSum>totalSum){
-                totalSum = currSum;
+            if(currSum>maxSum){
+                maxSum = currSum;
             }
         }
 
-        return totalSum;
+        return maxSum;
 
     }
 
