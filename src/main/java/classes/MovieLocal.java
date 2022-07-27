@@ -1,16 +1,19 @@
 package classes;
 
-public class Movie {
+public class MovieLocal {
 
     int id;
     String movieName;
 
-    public Movie(int id, String movieName) {
+    boolean isCached;
+
+    public MovieLocal(int id, String movieName, boolean isCached) {
         this.id = id;
         this.movieName = movieName;
+        this.isCached = isCached;
     }
 
-    public Movie(){
+    public MovieLocal(){
 
     }
 
@@ -28,6 +31,14 @@ public class Movie {
 
     public void setMovieName(String movieName) {
         this.movieName = movieName;
+    }
+
+    public boolean isCached() {
+        return isCached;
+    }
+
+    public void setCached(boolean cached) {
+        isCached = cached;
     }
 
     @Override
