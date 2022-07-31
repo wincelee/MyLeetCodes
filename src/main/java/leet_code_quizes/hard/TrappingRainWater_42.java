@@ -1,5 +1,7 @@
 package leet_code_quizes.hard;
 
+import java.util.Arrays;
+
 public class TrappingRainWater_42 {
 
     public static void main(String[] args) {
@@ -8,7 +10,11 @@ public class TrappingRainWater_42 {
 
         int[] height2 = {4,2,0,3,2,5};
 
-        int[] height3 = {4,2,0,3,2,5};
+        int[] height3 = {1, 0, 8, 5, 3, 9, 1, 1, 0, 4, 5};
+
+        System.out.println("TrapUsingTwoPointers1: " + trapUsingTwoPointers(height1));
+        System.out.println("TrapUsingTwoPointers2: " + trapUsingTwoPointers(height2));
+        System.out.println("TrapUsingTwoPointers3: " + trapUsingTwoPointers(height3));
     }
 
     public static int trapUsingTwoPointers(int[] height) {
