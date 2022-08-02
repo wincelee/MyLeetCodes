@@ -6,7 +6,6 @@ public class ValidParentheses_20 {
 
     public static void main(String[] args) {
 
-
         String s1 ="()"; // true
         String s2 ="(]"; // false
         String s3 ="}}"; // false
