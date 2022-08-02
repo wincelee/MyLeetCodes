@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MyMovies {
 
@@ -51,11 +52,18 @@ public class MyMovies {
         });
 
 
-//        List<MovieLocal> movieLocalList1 = moviesList.stream().map(movie ->{
-//
-//                    hashMap.get("gender").toString().equalsIgnoreCase("Male");
-//
-//                }).toList();
+
+/*        List<MovieLocal> movieLocalList1 = moviesList.stream().map(movie ->{
+
+            MovieLocal movieLocal = new MovieLocal();
+
+            movieLocal.setId(movie.getId());
+            movieLocal.setMovieName(movie.getMovieName());
+            movieLocal.setCached(false);
+
+            movieLocalList.add(movieLocal);
+
+                }).toList();*/
 
     }
 }
