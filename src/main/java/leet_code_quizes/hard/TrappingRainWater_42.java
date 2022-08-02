@@ -1,6 +1,5 @@
 package leet_code_quizes.hard;
 
-import java.util.Arrays;
 
 public class TrappingRainWater_42 {
 
