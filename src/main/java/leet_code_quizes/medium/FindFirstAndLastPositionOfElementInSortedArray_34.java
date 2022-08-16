@@ -8,89 +8,105 @@ public class FindFirstAndLastPositionOfElementInSortedArray_34 {
 
     public static void main(String[] args) {
 
-        int[] nums1 = {5,7,7,8,8,10};
+        int[] nums1 = {5, 7, 7, 8, 8, 10};
 
-        System.out.println("Nums1FirstAndLastPositionOfTarget: " + Arrays.toString(searchRange(nums1, 8)));
-        // System.out.println("Nums1FirstAndLastPositionOfTarget2: " + Arrays.toString(searchRange2(nums1, 8)));
+
+        //System.out.println("Nums1FirstAndLastPositionOfTarget: " + Arrays.toString(searchRangeUsingList(nums1, 8)));
+//        System.out.println("Nums1FirstAndLastPositionOfTarget: " + Arrays
+//                .toString(searchRangeUsingLeftPointerForLoopAndRightPointerForLoop(nums1, 8)));
+
+        System.out.println("Nums1FirstAndLastPositionOfTarget: " + Arrays
+                .toString(searchRangeUsingBinarySearch(nums1, 8)));
 
     }
 
-    public static int[] searchRange(int[] nums, int target) {
+    public static int[] searchRangeUsingList(int[] nums, int target) {
 
-        List<Integer> positions = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < nums.length; i++){
-
-
-            if(nums[i]==target){
-                positions.add(i);
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                list.add(i);
             }
+            if(nums[i]>target)
+                break;
         }
 
-        if (positions.isEmpty()){
+        if (list.isEmpty()) {
             return new int[]{-1, -1};
         }
 
+        return new int[]{list.get(0), list.get(list.size() - 1)};
 
-        if(positions.size() == 1){
+    }
 
-            int[] res = new int[2];
 
-            for(int i = 0; i < positions.size(); i++) {
+    public static int[] searchRangeUsingLeftPointerForLoopAndRightPointerForLoop(int[] nums, int target) {
 
-                if(positions.size() == 1){
-                    Arrays.fill(res, positions.get(i));
-                }
+        int[] res = new int[2];
+        res[0] = -1;
+        res[1] = -1;
 
-                res[i] = positions.get(i);
-
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                res[0] = i;
             }
-
-            return res;
-
         }
 
-        int[] res = new int[positions.size()];
-
-        for(int i = 0; i < positions.size(); i++) {
-
-
-            res[i] = positions.get(i);
-
+        for (int i = nums.length - 1; i <= 0; i--) {
+            System.out.println("Called" + Arrays.toString(nums) + ", target = " + target);
+            if (nums[i] == target) {
+                res[1] = i;
+            }
         }
 
         return res;
+
     }
 
-    public static int[] searchRange2(int[] nums, int target) {
+    public static int[] searchRangeUsingBinarySearch(int[] nums, int target) {
+        return new int[]{find(nums, target, true), find(nums, target, false)};
+    }
 
-        Map<Integer, Integer> map = new HashMap<>();
+    private static int find(int[] nums, int target, boolean leftIfTrue) {
+        int lp = 0;
+        int rp = nums.length - 1;
+        int index = -1;
 
-        List<Integer> res = new ArrayList<>();
+        if (leftIfTrue) {
+            while (lp <= rp) {
+                System.out.println("LeftPointer: " + lp);
+                System.out.println("RightPointer: " + rp);
+                int mid = lp + (rp - lp) / 2;
+                System.out.println("Mid: " + mid);
 
-        for(int i = 0; i < nums.length; i++){
-            if(map.containsKey(target)){
-                res.add(map.get(nums[i]));
+
+                System.out.println("mid using >>> 1 = " + ((low + high) >>> 1));
+                System.out.println("mid using / 2   = " + ((low + high) / 2));
+
+                System.out.println("5/7: " + 5/7);
+                if (target <= nums[mid]) {
+                    rp = mid - 1;
+                } else {
+                    lp = mid + 1;
+                }
+                if (target == nums[mid]) {
+                    index = mid;
+                }
             }
-
-            map.put(nums[i], i);
+        } else {
+            while (lp <= rp) {
+                int mid = lp + (rp - lp) / 2;
+                if (target >= nums[mid]) {
+                    lp = mid + 1;
+                } else {
+                    rp = mid - 1;
+                }
+                if (target == nums[mid]) {
+                    index = mid;
+                }
+            }
         }
-
-        System.out.println("ResList" + new Gson().toJson(res));
-
-        if(res.isEmpty()){
-            return new int[]{-1, -1};
-        }
-
-        int[] temp = new int[res.size()];
-
-        for(int i = 0; i < res.size(); i++) {
-
-            temp[i] = res.get(i);
-
-        }
-
-        return temp;
-
+        return index;
     }
 }
