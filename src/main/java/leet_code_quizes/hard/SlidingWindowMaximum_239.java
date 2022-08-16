@@ -24,14 +24,22 @@ public class SlidingWindowMaximum_239 {
             int max = nums[lp];
 
             while (lp < k-1){
+
+                System.out.println("Max: " + max);
+
                 if(nums[lp] > max){
                     max = nums[lp];
                     temp.add(nums[lp]);
+                    System.out.println("nums[lp] > max Reached: " + true + " :"+ nums[lp]);
                 }else{
                     temp.add(max);
+                    System.out.println("nums[lp] < max Reached: " + true + " :" + nums[lp]);
                 }
 
+
                 lp++;
+
+                System.out.println("LeftPointer: " + lp);
             }
         }
 

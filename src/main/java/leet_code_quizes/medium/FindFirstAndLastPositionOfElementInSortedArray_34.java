@@ -81,8 +81,8 @@ public class FindFirstAndLastPositionOfElementInSortedArray_34 {
                 System.out.println("Mid: " + mid);
 
 
-                System.out.println("mid using >>> 1 = " + ((low + high) >>> 1));
-                System.out.println("mid using / 2   = " + ((low + high) / 2));
+                //System.out.println("mid using >>> 1 = " + ((low + high) >>> 1));
+                //System.out.println("mid using / 2   = " + ((low + high) / 2));
 
                 System.out.println("5/7: " + 5/7);
                 if (target <= nums[mid]) {
