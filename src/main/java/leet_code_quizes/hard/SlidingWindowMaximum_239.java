@@ -10,11 +10,17 @@ public class SlidingWindowMaximum_239 {
         int[] nums1 = {1,3,-1,-3,5,3,6,7};
         int k1 = 3;
 
+        int[] nums2 = {1, -1};
+        int k2 = 1;
+
         /*System.out.println("MaxSlidingWindowsNumsK1" +
                 Arrays.toString(maxSlidingWindow(nums1, k1)));*/
 
-        System.out.println("MaxSlidingWindows2NumsK1" +
-                Arrays.toString(maxSlidingWindow2(nums1, k1)));
+        /*System.out.println("MaxSlidingWindows2NumsK1" +
+                Arrays.toString(maxSlidingWindow2(nums1, k1)));*/
+
+        System.out.println("MaxSlidingWindows2Nums2K2" +
+                Arrays.toString(maxSlidingWindow2(nums2, k2)));
 
     }
 
@@ -24,27 +30,32 @@ public class SlidingWindowMaximum_239 {
 
         int firstIndex = 0;
 
+        int max = 0;
+
         for(int i =0; i < nums.length-k+1; i++){
 
+            int tempMax = nums[i];
 
-            for(int j = firstIndex+1; j <= i + k -1; j++){
+            System.out.println("TempMax: " + tempMax);
 
-                /*if(nums[j] > tempMax){
-                    max= nums[j];
-                    resList.add(nums[j]);
-                }*/
+            for(int j = firstIndex; j <= i + k -1; j++){
+
+                System.out.println("Called: " + true);
 
                 if(nums[j] > tempMax){
 
-                    resList.add(nums[j]);
-                }
+                    tempMax = nums[j];
 
-                System.out.println("ResList: " + resList);
+                }
 
             }
 
-            System.out.println("LoopExited: " + true);
+
             firstIndex++;
+
+            //max = Math.max(max, tempMax);
+
+            resList.add(max);
 
         }
 
