@@ -3,10 +3,7 @@ package leet_code_quizes.hard;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class PalindromePairs_336 {
 
@@ -16,6 +13,14 @@ public class PalindromePairs_336 {
         String[] wordsArrayTwo = {"a","b","c","ab","ac","aa"};
 
         System.out.println("PalindromePairs: " + new Gson().toJson(palindromePairs(wordsArrayTwo)));
+    }
+
+    public static List<List<Integer>> palindromePairsUsingHashMap(String[] words) {
+        List<List<Integer>> res = new ArrayList<>();
+
+        HashMap<String, Integer> map = new HashMap<>();
+
+        return res;
     }
 
     public static List<List<Integer>> palindromePairs(String[] words) {
