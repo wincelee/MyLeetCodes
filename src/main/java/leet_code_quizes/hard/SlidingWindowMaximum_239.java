@@ -20,11 +20,19 @@ public class SlidingWindowMaximum_239 {
                 Arrays.toString(maxSlidingWindow2(nums1, k1)));*/
 
         System.out.println("MaxSlidingWindows2Nums2K2" +
-                Arrays.toString(maxSlidingWindow2(nums2, k2)));
+                Arrays.toString(maxSlidingWindowBruteForce(nums2, k2)));
+
+        System.out.println("IntegerMinValue: " + Integer.MIN_VALUE);
 
     }
 
-    public static int[] maxSlidingWindow2(int[] nums, int k) {
+    public static int[] maxSlidingWindowBruteForce(int[]nums, int k){
+
+
+        return new int[]{};
+    }
+
+    public static int[] maxSlidingWindowNotWorking2(int[] nums, int k) {
 
         List<Integer> resList = new ArrayList<>();
 
@@ -69,7 +77,7 @@ public class SlidingWindowMaximum_239 {
 
     }
 
-    public static int[] maxSlidingWindow(int[] nums, int k) {
+    public static int[] maxSlidingWindowNotWorking(int[] nums, int k) {
         List<Integer> temp= new ArrayList<>();
 
         int lp = 0, rp = nums.length-1;
