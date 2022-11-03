@@ -1,4 +1,4 @@
-package leet_code_learning;
+package learning;
 
 public class SinglyLinkedList {
 

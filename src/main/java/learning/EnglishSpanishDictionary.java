@@ -1,4 +1,4 @@
-package leet_code_learning;
+package learning;
 
 import java.util.Arrays;
 import java.util.HashMap;
