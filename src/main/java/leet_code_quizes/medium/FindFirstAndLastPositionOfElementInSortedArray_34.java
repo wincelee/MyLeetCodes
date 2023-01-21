@@ -1,7 +1,5 @@
 package leet_code_quizes.medium;
 
-import com.google.gson.Gson;
-
 import java.util.*;
 
 public class FindFirstAndLastPositionOfElementInSortedArray_34 {
