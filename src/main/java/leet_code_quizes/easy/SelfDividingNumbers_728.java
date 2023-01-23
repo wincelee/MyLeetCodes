@@ -20,6 +20,10 @@ public class SelfDividingNumbers_728 {
         System.out.println("SelfDividingNumbersLeft1Right1: " + new GsonBuilder()
                 .setPrettyPrinting().create().toJson(selfDividingNumbersMyOwnMethod(left2, right2)));
 
+
+        System.out.println("SelfDividingNumbersLeft1Right1OfficialSolution: " + new GsonBuilder()
+                .setPrettyPrinting().create().toJson(selfDividingNumbersOfficialSolution(left2, right2)));
+
     }
 
     public static List<Integer> selfDividingNumbersMyOwnMethod(int left, int right) {
@@ -50,15 +54,44 @@ public class SelfDividingNumbers_728 {
             // Another way of converting above to Integer
             // int k1 = Integer.parseInt(String.valueOf(Character.valueOf(s.charAt(j))));
 
-            if (k == 0){
-                return false;
-            } else if (i % k > 1 || i % k == 1){
+            if (k == 0 || i % k > 1 || i % k == 1){
                 return false;
             }
 
         }
 
         return true;
+    }
+
+    public static List<Integer> selfDividingNumbersOfficialSolution(int left, int right) {
+
+        List<Integer> res = new ArrayList<>();
+
+        for (int i = left; i <= right; i++) {
+
+            String s = String.valueOf(i);
+
+            if (isSelfDividingOfficialSolution(s, i, s.length())) {
+                res.add(i);
+            }
+
+        }
+
+        return res;
+
+    }
+
+    public static boolean isSelfDividingOfficialSolution(String s, int i, int n) {
+
+        for (Character c : s.toCharArray()) {
+            int k = c - '0';
+            if (k == 0 || i % k == 1 || i % k > 1) {
+                return false;
+            }
+        }
+
+        return true;
+
     }
 
 
