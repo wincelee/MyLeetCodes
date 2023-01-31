@@ -1,0 +1,26 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î¼À¹şÿÿÿÿ
+W
+java:S1854"ARemove this useless assignment to local variable "wordsArrayOne".(Š·é—
+H
+java:S1481"2Remove this unused "wordsArrayOne" local variable.(Š·é—
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§É ”ùÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "map".(ì½ùâúÿÿÿÿ
+G
+java:S1172",Remove this unused method parameter "words".(ÙñÁ§ÿÿÿÿÿ
+C
+java:S1481"(Remove this unused "map" local variable.(ì½ùâúÿÿÿÿ
+M	java:S106+"9Replace this use of System.out or System.err by a logger.(‹¾
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(êÁûüÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(êÁûüÿÿÿÿ
+M	java:S1063"9Replace this use of System.out or System.err by a logger.(‹¾
+R
+java:S3972:"7Move this "if" to a new line or add the missing "else".(Êá’…ÿÿÿÿÿ
+;
+java:S1659H" Declare "rp" on a separate line.(……ÜÏıÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(ò¶À¿
+6
+java:S1659Z" Declare "rp" on a separate line.(«¨Ï¬
+S
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ

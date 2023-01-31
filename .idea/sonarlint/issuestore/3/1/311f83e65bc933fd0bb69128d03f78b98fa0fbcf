@@ -1,0 +1,21 @@
+
+~
+java:S1192"cDefine a constant instead of duplicating this literal "----------------------------------" 4 times.(Õ÷õúÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦´ıÒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ø®µµøÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(ÃûÖƒùÿÿÿÿ
+>
+java:S1659"(Declare "rightIndex" on a separate line.(Á”Ş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­ë¾şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ˆÎĞ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¥¡‹â
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­ë¾şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ˆÎĞ
+M	java:S106 "9Replace this use of System.out or System.err by a logger.(ÿşÆ\
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
+6
+java:S16592" Declare "p2" on a separate line.(î”À¬
