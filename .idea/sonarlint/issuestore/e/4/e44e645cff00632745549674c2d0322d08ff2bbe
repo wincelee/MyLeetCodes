@@ -1,0 +1,42 @@
+
+c
+java:S1192*"HDefine a constant instead of duplicating this literal "    {
+" 10 times.(Ÿñ¼Ñÿÿÿÿÿ
+|
+java:S1192="aDefine a constant instead of duplicating this literal "        \"region\": \"Europe\",
+" 5 times.(¨äüÓûÿÿÿÿ
+t
+java:S1192+"^Define a constant instead of duplicating this literal "      \"type\": \"Private\",
+" 5 times.(ı³Õ¦
+n
+java:S1192-"XDefine a constant instead of duplicating this literal "      \"location\": {
+" 10 times.(™íÏŠ
+}
+java:S1192."bDefine a constant instead of duplicating this literal "        \"city\": \"Cambridge\",
+" 3 times.(‘•áıÿÿÿÿ
+^
+java:S11927"HDefine a constant instead of duplicating this literal "    },
+" 9 times.(¥ÁÊÁ
+€
+java:S1192m"eDefine a constant instead of duplicating this literal "      \"student_faculty_ratio\": 5,
+" 3 times.(¢à°‘ÿÿÿÿÿ
+~
+java:S11920"hDefine a constant instead of duplicating this literal "        \"country\": \"United States\"
+" 5 times.(Å¿¥
+
+java:S1192>"iDefine a constant instead of duplicating this literal "        \"country\": \"United Kingdom\"
+" 4 times.(„º•
+s
+java:S11929"]Define a constant instead of duplicating this literal "      \"type\": \"Public\",
+" 5 times.(ëğ·”
+a
+java:S11921"KDefine a constant instead of duplicating this literal "      },
+" 10 times.(¥ÁÊÁ
+~
+java:S1192/"hDefine a constant instead of duplicating this literal "        \"region\": \"North America\",
+" 5 times.(Ò’›×
+P	java:S125"<This block of commented-out lines of code should be removed.(ÈâÄ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñù«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š·¢şÿÿÿÿ
+H
+java:S6126("2Replace this String concatenation with Text block.(øĞÒâ

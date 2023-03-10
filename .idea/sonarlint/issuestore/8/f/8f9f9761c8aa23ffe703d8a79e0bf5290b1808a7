@@ -1,0 +1,18 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áÛß²8Üı—õä0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(å¬³ºûÿÿÿÿ8æş—õä0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(üàüà8çş—õä0
+]	java:S125"<This block of commented-out lines of code should be removed.(«í®®şÿÿÿÿ8çş—õä0
+B
+java:S1659$" Declare "rp" on a separate line.(Öõõûÿÿÿÿ8éş—õä0
+=
+java:S16595" Declare "rp" on a separate line.(â¥œ8şş—õä0
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(‰ÉÅÙ8…ÿ—õä0
+T	java:S106I"9Replace this use of System.out or System.err by a logger.(úØãP8ˆÿ—õä0
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(…ãª¶ùÿÿÿÿ8‰ÿ—õä0
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(÷¾ÁÕ8‹ÿ—õä0
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8“ÿ—õä0
+E
+java:S1125P"(Remove the unnecessary boolean literals.(”€Â8™ÿ—õä0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8šÿ—õä0

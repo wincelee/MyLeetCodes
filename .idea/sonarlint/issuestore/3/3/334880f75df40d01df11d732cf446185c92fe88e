@@ -1,0 +1,6 @@
+
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(´ÿòÈÿÿÿÿÿ8‚ŞÓõä0
+X	java:S125-"<This block of commented-out lines of code should be removed.(¼‘®ç8…ŞÓõä0
+o
+java:S62046"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¾£èè8…ŞÓõä0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(Ş‹òúÿÿÿÿ8†ŞÓõä0

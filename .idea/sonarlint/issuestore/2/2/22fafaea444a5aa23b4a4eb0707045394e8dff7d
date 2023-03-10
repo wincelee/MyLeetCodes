@@ -1,0 +1,20 @@
+
+a
+java:S1192'"FDefine a constant instead of duplicating this literal "Bread" 3 times.(ÜİğÇúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²°ø¤
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ğ€¤İşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(É©ì
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İºğ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«»“ñ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”ö¥€ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(½²¯Í
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ªô½™şÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(°ÏÌÈ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(Š¡¤•
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(›Ÿà
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(›Ÿà
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ˆ–´®ÿÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

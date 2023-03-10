@@ -3,16 +3,14 @@ package code_library;
 import classes.Item;
 import classes.JsonStringResponse;
 import classes.Person;
+import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.w3c.dom.css.Counter;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -61,6 +59,44 @@ class ListsOperations {
         laikaMap.put("balance", 1200);
         laikaMap.put("netWorth", 6955.23238895002225526565);
         laikaMap.put("gender", "FeMale");
+
+
+        Optional<Person> personJames = personsList.stream().
+                filter(p -> p.getUsername().equals("James")).
+                findAny();
+
+        Optional<Person> firstPersonJames = personsList.stream().
+                filter(p -> p.getUsername().equals("James")).
+                findFirst();
+
+        personJames.ifPresent(p -> {
+            System.out.println("IsJamesPresent" + "True: " + "\n" + new Gson().toJson(p));
+        });
+
+
+        if (personJames.isPresent()){
+            System.out.println("IsJamesPresentUsingIfStatement: " + "True");
+        }
+
+        Boolean isJamesPresent = personsList.stream()
+                .anyMatch(p -> p.getUsername()
+                        .equals("James"));
+
+        Boolean ifAllUsernamesMatchJames = personsList.stream()
+                .allMatch(p -> p.getUsername()
+                        .equals("James"));
+
+        Boolean ifNonMatchesUsernameJames = personsList.stream()
+                .noneMatch(p -> p.getUsername()
+                        .equals("James"));
+
+        if (isJamesPresent){
+            System.out.println("IsJamesPresentUsingAnyMatch: " + "True");
+        }
+
+        if (!ifAllUsernamesMatchJames){
+            System.out.println("IfAllUsernamesMatchJames: " + "False");
+        }
 
         List<HashMap<String, Object>> hashMapList = new ArrayList<>();
 

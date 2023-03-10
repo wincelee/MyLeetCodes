@@ -1,0 +1,42 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¡Çß8¯Ï•é0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¡Çß8¯Ï•é0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¡Çß8¯Ï•é0
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¡Çß8¯Ï•é0
+r	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ËÊúÿÿÿÿ8¼¿ß•é0
+m	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®âèÊ8¼¿ß•é0
+m	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îå±8¼¿ß•é0
+l	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÕ 8¼¿ß•é0
+x
+java:S1104"VMake university a static final constant or non-public and provide accessors if needed.(œø½àúÿÿÿÿ8æ¨Î•é0
+u
+java:S1104"XMake rank_display a static final constant or non-public and provide accessors if needed.(°Í‰î8æ¨Î•é0
+n
+java:S1104"QMake score a static final constant or non-public and provide accessors if needed.(«ÊÉ˜8æ¨Î•é0
+r
+java:S1104"PMake type a static final constant or non-public and provide accessors if needed.(ÙşÓ¼ûÿÿÿÿ8ç¨Î•é0
+ƒ
+java:S1104	"aMake student_faculty_ratio a static final constant or non-public and provide accessors if needed.(î‡åüÿÿÿÿ8ç¨Î•é0
+
+java:S1104
+"bMake international_students a static final constant or non-public and provide accessors if needed.(õÂ˜‚8ç¨Î•é0
+v
+java:S1104"YMake faculty_count a static final constant or non-public and provide accessors if needed.(ª¾´·8ç¨Î•é0
+q
+java:S1104"TMake location a static final constant or non-public and provide accessors if needed.(Éä‹©8ç¨Î•é0
+;
+java:S1700"Rename field "university"(œø½àúÿÿÿÿ8ç¨Î•é0
+s	java:S116"WRename this field "rank_display" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Í‰î8è¨Î•é0
+	java:S116	"`Rename this field "student_faculty_ratio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‡åüÿÿÿÿ8è¨Î•é0
+}	java:S116
+"aRename this field "international_students" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÂ˜‚8è¨Î•é0
+t	java:S116"XRename this field "faculty_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¾´·8è¨Î•é0
+]	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(¼¡Çß8Ã¿ß•é0
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸êİ8¨¯Ï•é0
+o	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ËÊúÿÿÿÿ8¨¯Ï•é0
+o	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞğÅÔûÿÿÿÿ8©¯Ï•é0
+j	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®âèÊ8©¯Ï•é0
+j	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úâ”¦8©¯Ï•é0
+j	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îå±8©¯Ï•é0
+j	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€š’Õ8ª¯Ï•é0
+i	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÕ 8ª¯Ï•é0
