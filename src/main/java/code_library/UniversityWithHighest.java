@@ -1,6 +1,9 @@
 package code_library;
 
+import classes.Config;
+import classes.Person;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
@@ -25,9 +28,12 @@ public class UniversityWithHighest {
                 .max(Comparator.comparingInt(value -> Integer.parseInt(removeComma(value.getInternational_students()))))
                         .get();
 
+        List<String> rankDisplayList = universities.stream().map(University::getRank_display).toList();
 
         System.out.println("HighestNumberOfInternationStudents: " + maxUniversity.getInternational_students());
         System.out.println("CityWithHighestNumberOfInternationStudents: " + maxUniversity.getLocation().getCity());
+        System.out.println(Config.ANSI_BLUE + "RankDisplayList: " + new GsonBuilder()
+                .setPrettyPrinting().create().toJson(rankDisplayList));
 
     }
 
