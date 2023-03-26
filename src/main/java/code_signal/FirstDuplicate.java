@@ -16,20 +16,24 @@ public class FirstDuplicate {
 
     public static int firstDuplicate(int[] nums) {
         int minIndex = 0;
-        int element = 0;
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i< nums.length; i++){
             if (map.containsKey(nums[i])){
 
+                System.out.println("Index: " + i);
+
                 minIndex = i;
 
-                if (i < minIndex){
-                    minIndex = i;
-                    element = nums[i];
-                }
+                System.out.println("MinIndex: " + minIndex);
 
+                if (i < minIndex){
+
+                    System.out.println("Called: " + "True");
+
+                    minIndex = i;
+                }
 
             }else {
 
@@ -40,6 +44,6 @@ public class FirstDuplicate {
 
         System.out.println("MyMap: " + new Gson().toJson(map));
 
-        return element;
+        return nums[minIndex];
     }
 }
