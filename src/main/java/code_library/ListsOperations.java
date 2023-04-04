@@ -1,5 +1,6 @@
 package code_library;
 
+import classes.Config;
 import classes.Item;
 import classes.JsonStringResponse;
 import classes.Person;
@@ -227,6 +228,24 @@ class ListsOperations {
                 .create().toJson(itemTitles));*/
 
         System.out.println(ANSI_BLUE + "PersonsListMaxBalance:" + totalBalanceFemale);
+
+        // Using stream as a setter to update every field in an element
+        List<Person> updatedPersonsList = personsList.stream()
+                .map(person -> {
+                    person.setBalance(2);
+                    return person;
+                })
+                .toList();
+
+        List<Person> updatedPersonsListUsingPeek = personsList.stream()
+                .peek(person -> person.setBalance(2))
+                .toList();
+
+        System.out.println(Config.ANSI_GREEN + "\nUpdateEveryFieldInAnElement: " +
+                new Gson().toJson(updatedPersonsList));
+
+        System.out.println(Config.ANSI_GREEN + "\nUpdateEveryFieldInAnElementUsingPeek: " +
+                new Gson().toJson(updatedPersonsListUsingPeek));
 
     }
 
