@@ -1,0 +1,24 @@
+
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ı‰ûÿÿÿÿ8õ˜õä0
+]
+java:S1854";Remove this useless assignment to local variable "target2".(ÜóÛãıÿÿÿÿ8†…˜õä0
+X
+java:S1854"6Remove this useless assignment to local variable "s2".(˜ÆÿŞÿÿÿÿÿ8‡…˜õä0
+B
+java:S1659" Declare "s2" on a separate line.(˜ÆÿŞÿÿÿÿÿ8ˆ…˜õä0
+G
+java:S1659"%Declare "target2" on a separate line.(ÜóÛãıÿÿÿÿ8ˆ…˜õä0
+I
+java:S1481"'Remove this unused "s2" local variable.(˜ÆÿŞÿÿÿÿÿ8Š…˜õä0
+N
+java:S1481",Remove this unused "target2" local variable.(ÜóÛãıÿÿÿÿ8Š…˜õä0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(’§åÏ8Š…˜õä0
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(õƒŒ•8‹…˜õä0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ç›‘ÿ8’…˜õä0
+T	java:S1061"9Replace this use of System.out or System.err by a logger.(·¶ƒ$8Ÿ…˜õä0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ÍÅœ¤8¡…˜õä0
+U	java:S106="9Replace this use of System.out or System.err by a logger.(…íœ´8¢…˜õä0
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(â·Å·8¨…˜õä0
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(ùÒ°õ8©…˜õä0
+]	java:S125N"<This block of commented-out lines of code should be removed.(Óñøèúÿÿÿÿ8´…˜õä0

@@ -1,0 +1,27 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûòÏ
+Q
+java:S1854"6Remove this useless assignment to local variable "k1".(õšğÌüÿÿÿÿ
+N
+java:S1854
+"9Remove this useless assignment to local variable "nums1".(©§Ú
+?
+java:S1481
+"*Remove this unused "nums1" local variable.(©§Ú
+B
+java:S1481"'Remove this unused "k1" local variable.(õšğÌüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ó¯¾
+V	java:S125"<This block of commented-out lines of code should be removed.(Ñ´êÌúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÔÀ´¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òÅÎ
+H
+java:S1172"2Remove these unused method parameters "nums", "k".(à’£ò
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ÊÂò÷ıÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(÷Ö»øÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(é§Íà
+6
+java:S1659S" Declare "rp" on a separate line.(¹¨²»
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(ì™¶şøÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(¤±ªÙ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(™‘¨±ûÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(¡œ­úÿÿÿÿ

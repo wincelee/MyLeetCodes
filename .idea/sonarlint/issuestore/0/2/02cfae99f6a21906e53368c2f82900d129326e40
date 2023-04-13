@@ -1,0 +1,26 @@
+
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é‘¶ÿÿÿÿÿ
+X
+java:S1854"6Remove this useless assignment to local variable "s5".(„‹¨ˆùÿÿÿÿ8Š•¨ùä0
+X
+java:S1854"6Remove this useless assignment to local variable "s3".(†¾“şøÿÿÿÿ8Â»÷ä0
+L
+java:S1854"6Remove this useless assignment to local variable "s2".(ãé›
+K
+java:S1854"5Remove this useless assignment to local variable "s".(Æ‹™€
+<
+java:S1481"&Remove this unused "s" local variable.(Æ‹™€
+=
+java:S1481"'Remove this unused "s2" local variable.(ãé›
+I
+java:S1481"'Remove this unused "s3" local variable.(†¾“şøÿÿÿÿ8Ã»÷ä0
+I
+java:S1481"'Remove this unused "s5" local variable.(„‹¨ˆùÿÿÿÿ8•¨ùä0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïÿµ¯úÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(†ıĞ›ıÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¢Ñ÷ä0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¢Ñ÷ä0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¢Ñ÷ä0
