@@ -1,8 +1,6 @@
 
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-l
-<src/main/java/leet_code_quizes/easy/MajorityElement_169.java,9/6/9648b48308e34f055301c9414d1f5f43385a9a9c
 p
 @src/main/java/leet_code_quizes/easy/SearchInsertPosition_35.java,a/f/afa03748d3d1cecffa4e7c3b1a71c819cf2af105
 p
