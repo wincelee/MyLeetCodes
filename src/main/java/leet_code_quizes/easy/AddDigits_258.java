@@ -6,6 +6,7 @@ public class AddDigits_258 {
 
     }
 
+    // add your functionality here
     public static int addDigits(int num) {
         return 1;
     }
