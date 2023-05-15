@@ -8,7 +8,7 @@ public class ProductOfArrayExceptSelf_238 {
 
     public static void main(String[] args) {
 
-        int[] nums = {1,2,3,4};
+        /*int[] nums = {1,2,3,4};
 
         // Below cant Work With division by 0 this is if we have a 0 as our element
         System.out.println(Config.ANSI_CYAN + "ProductExceptSelfWithDivisionNums: " +
@@ -30,7 +30,9 @@ public class ProductOfArrayExceptSelf_238 {
 
         // Below cant Work With division by 0 this is if we have a 0 as our element
         System.out.println("ProductExceptSelfBruteForceNums1: " +
-                Arrays.toString(productExceptSelfWithDivision(nums1)));
+                Arrays.toString(productExceptSelfWithDivision(nums1)));*/
+
+        System.out.println("ResultArray: " + Arrays.toString(productExceptSelfTest(new int[]{1, 2, 3, 4})));
     }
 
     public static int[] productExceptSelf(int[] nums) {
@@ -39,14 +41,14 @@ public class ProductOfArrayExceptSelf_238 {
 
         int runningProduct = 1;
 
-        for(int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             result[i] = runningProduct;
             runningProduct = runningProduct * nums[i];
         }
 
         runningProduct = 1;
 
-        for (int i = nums.length -1; i >= 0; i--){
+        for (int i = nums.length - 1; i >= 0; i--) {
             result[i] = result[i] * runningProduct;
             runningProduct = runningProduct * nums[i];
         }
@@ -60,13 +62,13 @@ public class ProductOfArrayExceptSelf_238 {
         int[] res = new int[n];
 
         int product = 1;
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             res[i] = product;
             product *= nums[i];
         }
 
         product = 1;
-        for(int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             res[i] *= product;
             product *= nums[i];
         }
@@ -82,13 +84,13 @@ public class ProductOfArrayExceptSelf_238 {
         Arrays.fill(res, 1);
 
         int product = 1;
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             res[i] *= product;
             product *= nums[i];
         }
 
         product = 1;
-        for(int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             res[i] *= product;
             product *= nums[i];
         }
@@ -101,12 +103,12 @@ public class ProductOfArrayExceptSelf_238 {
         int n = nums.length;
         int[] res = new int[n];
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
 
             int product = 1;
 
-            for (int j = 0; j < n; j++){
-                if (i != j){
+            for (int j = 0; j < n; j++) {
+                if (i != j) {
                     product = product * nums[j];
                 }
             }
@@ -129,9 +131,18 @@ public class ProductOfArrayExceptSelf_238 {
             product *= num;
         }
 
-        for (int i = 0; i < n; i++){
-            res[i] = product/nums[i];
+        for (int i = 0; i < n; i++) {
+            res[i] = product / nums[i];
         }
+
+        return res;
+    }
+
+    public static int[] productExceptSelfTest(int[] nums) {
+
+        int len = nums.length;
+
+        int[] res = new int[len];
 
         return res;
     }

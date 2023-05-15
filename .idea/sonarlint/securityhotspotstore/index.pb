@@ -1,21 +1,5 @@
 
-e
-5src/main/java/coding_game/KirkAndQuestTheDescent.java,5/7/57582765d5577c73cd08c88b12beb7ac5c700865
-]
--src/main/java/code_signal/FirstDuplicate.java,b/0/b089810110745e258b13a10d60472090a1a5b3ea
-u
-Esrc/main/java/leet_code_quizes/easy/RepeatedSubstringPattern_459.java,5/f/5f988abb4172046e8a6633480901a617c9d6f7b3
-e
-5src/main/java/code_library/ListFilterComparisons.java,b/1/b1e53e357523b86c5284fa983e8fd62f78d5af64
 _
 /src/main/java/code_library/ListsOperations.java,1/8/18ca5ac92809e5b2cf51dbb54d79aee76dc384db
-
-Osrc/main/java/leet_code_quizes/easy/FindAllNumbersDisappearedInAnArray_448.java,3/2/32460d7b6e2edec3586568fa6053bae183323897
-{
-Ksrc/main/java/leet_code_quizes/easy/CountingWordsWithAGivenPrefix_2185.java,f/9/f99ba4d2173151782a621410d7266e825f6da34b
 g
 7src/main/java/leet_code_quizes/easy/AddStrings_415.java,7/7/778cde889b775a85a9b9cdd16c925e9f0b6345e4
-z
-Jsrc/main/java/leet_code_quizes/easy/FindTheDifferenceOfTwoArrays_2215.java,5/1/51714984425292fcd0c0e671f75b7f5bc711ba31
-o
-?src/main/java/leet_code_quizes/easy/MaxConsecutiveOnes_485.java,7/f/7fe213c795e52dcfe4d14d3d4ff57f4f94a057f8
