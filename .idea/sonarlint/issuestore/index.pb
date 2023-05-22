@@ -75,15 +75,11 @@ Z
 *src/main/java/code_library/University.java,9/9/99dc6b453bc415fe7efd1d194dde78ed9abaf613
 X
 (src/main/java/code_library/Location.java,4/b/4bcab8a085b793982b3dd54b35d19a1f80638a36
-e
-5src/main/java/code_library/UniversityWithHighest.java,e/4/e44e645cff00632745549674c2d0322d08ff2bbe
 T
 $src/main/java/code_library/data.json,7/3/7354e1acfa7c8bd003715cb3e380a30cc21b9482
 ^
 .src/main/java/code_signal/CenturyFromYear.java,1/a/1a04d3ce7fef9a137590aacab3f1b174749d0807
 n
 >src/main/java/leet_code_quizes/easy/ContainsDuplicate_217.java,d/6/d63f700bfcca415d42bd8d9aab2f70d2877752b3
-_
-/src/main/java/code_library/ListsOperations.java,1/8/18ca5ac92809e5b2cf51dbb54d79aee76dc384db
 g
 7src/main/java/leet_code_quizes/easy/AddStrings_415.java,7/7/778cde889b775a85a9b9cdd16c925e9f0b6345e4
