@@ -42,7 +42,6 @@ public class TopKFrequentElements_347 {
             }
         }
 
-
         Map<Integer, Integer> sortedMap = map
                 .entrySet()
                 .stream()
