@@ -6,7 +6,7 @@ import com.google.gson.GsonBuilder;
 
 import java.util.*;
 
-public class TestClass {
+public class GsonPriorityQueueBug {
 
     public static void main(String[] args) {
 
