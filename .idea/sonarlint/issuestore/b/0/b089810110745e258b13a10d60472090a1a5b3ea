@@ -1,0 +1,10 @@
+
+Z
+java:S2583"DChange this condition so that it does not always evaluate to "false"(¤›ž½
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©Ù³Úüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼­ÿ’üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ú‰ßˆ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(¦•ÜÂ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ö·Õé
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

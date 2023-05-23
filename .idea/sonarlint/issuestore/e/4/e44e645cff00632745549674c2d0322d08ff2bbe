@@ -1,0 +1,47 @@
+
+c
+java:S11920"HDefine a constant instead of duplicating this literal "    {
+" 10 times.(Ÿñ¼Ñÿÿÿÿÿ
+|
+java:S1192C"aDefine a constant instead of duplicating this literal "        \"region\": \"Europe\",
+" 5 times.(¨äüÓûÿÿÿÿ
+t
+java:S11921"^Define a constant instead of duplicating this literal "      \"type\": \"Private\",
+" 5 times.(ı³Õ¦
+n
+java:S11923"XDefine a constant instead of duplicating this literal "      \"location\": {
+" 10 times.(™íÏŠ
+}
+java:S11924"bDefine a constant instead of duplicating this literal "        \"city\": \"Cambridge\",
+" 3 times.(‘•áıÿÿÿÿ
+^
+java:S1192="HDefine a constant instead of duplicating this literal "    },
+" 9 times.(¥ÁÊÁ
+€
+java:S1192s"eDefine a constant instead of duplicating this literal "      \"student_faculty_ratio\": 5,
+" 3 times.(¢à°‘ÿÿÿÿÿ
+~
+java:S11926"hDefine a constant instead of duplicating this literal "        \"country\": \"United States\"
+" 5 times.(Å¿¥
+
+java:S1192D"iDefine a constant instead of duplicating this literal "        \"country\": \"United Kingdom\"
+" 4 times.(„º•
+s
+java:S1192?"]Define a constant instead of duplicating this literal "      \"type\": \"Public\",
+" 5 times.(ëğ·”
+a
+java:S11927"KDefine a constant instead of duplicating this literal "      },
+" 10 times.(¥ÁÊÁ
+~
+java:S11925"hDefine a constant instead of duplicating this literal "        \"region\": \"North America\",
+" 5 times.(Ò’›×
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(×€õıúÿÿÿÿ8³ö¬—„1
+P	java:S125"<This block of commented-out lines of code should be removed.(ÈâÄ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ñù«
+S	java:S106""9Replace this use of System.out or System.err by a logger.(š·¢şÿÿÿÿ
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Ô¥áşÿÿÿÿ8Ãö¬—„1
+H
+java:S6126."2Replace this String concatenation with Text block.(øĞÒâ
+M
+java:S1128"+Remove this unused import 'classes.Person'.(Ò××ïÿÿÿÿÿ8Åö¬—„1

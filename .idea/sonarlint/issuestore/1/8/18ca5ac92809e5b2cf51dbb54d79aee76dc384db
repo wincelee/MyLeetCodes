@@ -1,0 +1,71 @@
+
+d
+java:S1192,"GDefine a constant instead of duplicating this literal "gender" 6 times.(‘¥°˜8•„¼Øô0
+e
+java:S1192*"HDefine a constant instead of duplicating this literal "balance" 6 times.(ñ³«ü8•„¼Øô0
+d
+java:S1192$"GDefine a constant instead of duplicating this literal "Female" 3 times.(Ñ×ÎÈ8•„¼Øô0
+h
+java:S1192#"FDefine a constant instead of duplicating this literal "James" 7 times.(äı¯Ôüÿÿÿÿ8•„¼Øô0
+k
+java:S1192+"IDefine a constant instead of duplicating this literal "netWorth" 5 times.(±£ Øøÿÿÿÿ8•„¼Øô0
+J
+java:S5411^"(Use a primitive boolean expression here.(ùú¯¥úÿÿÿÿ8–„¼Øô0
+J
+java:S5411b"(Use a primitive boolean expression here.(ÕÍ£ûÿÿÿÿ8–„¼Øô0
+a
+java:S1854E"DRemove this useless assignment to local variable "firstPersonJames".(Á‰ˆ±8²„¼Øô0
+o
+java:S1854Z"MRemove this useless assignment to local variable "ifNonMatchesUsernameJames".(Ò›ñåıÿÿÿÿ8²„¼Øô0
+j
+java:S1854±"LRemove this useless assignment to local variable "personsNamesUsingStream2".(•£çØ8²„¼Øô0
+R
+java:S1481E"5Remove this unused "firstPersonJames" local variable.(Á‰ˆ±8µ„¼Øô0
+N
+java:S1602I",Remove useless curly braces around statement(õâ“åşÿÿÿÿ8µ„¼Øô0
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(øæì8¶„¼Øô0
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(Çı’ãşÿÿÿÿ8·„¼Øô0
+`
+java:S1481Z">Remove this unused "ifNonMatchesUsernameJames" local variable.(Ò›ñåıÿÿÿÿ8¸„¼Øô0
+T	java:S106_"9Replace this use of System.out or System.err by a logger.(íô)8¸„¼Øô0
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(’¥«—8¸„¼Øô0
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(­¤Â±ùÿÿÿÿ8¹„¼Øô0
+^	java:S125„"<This block of commented-out lines of code should be removed.(¨òø¹ıÿÿÿÿ8º„¼Øô0
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(”¹¸ıÿÿÿÿ8¼„¼Øô0
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(¶ãÍ„üÿÿÿÿ8¼„¼Øô0
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(·é şÿÿÿÿ8¼„¼Øô0
+[	java:S106™"9Replace this use of System.out or System.err by a logger.(èâ™“şÿÿÿÿ8¼„¼Øô0
+V	java:S106š"9Replace this use of System.out or System.err by a logger.(ğ°µ8¼„¼Øô0
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(ÓË¦üùÿÿÿÿ8½„¼Øô0
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(’¼µÔúÿÿÿÿ8½„¼Øô0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(×›íŒıÿÿÿÿ8½„¼Øô0
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ÓØöùÿÿÿÿ8½„¼Øô0
+^	java:S125£"<This block of commented-out lines of code should be removed.(äÎİıÿÿÿÿÿ8½„¼Øô0
+R
+java:S1611©"4Remove the parentheses around the "person" parameter(ä»ÿµ8¾„¼Øô0
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(Ûô¼»8¾„¼Øô0
+u
+java:S6204²"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ãÃåµşÿÿÿÿ8¿„¼Øô0
+^
+java:S1612±"@Replace this lambda with method reference 'Person::getUsername'.(•£çØ8¿„¼Øô0
+[
+java:S1481±"=Remove this unused "personsNamesUsingStream2" local variable.(•£çØ8¿„¼Øô0
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(üŸàüÿÿÿÿ8¿„¼Øô0
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(âÌ««8¿„¼Øô0
+V
+java:S1611Á"3Remove the parentheses around the "array" parameter(“¶ë„ûÿÿÿÿ8À„¼Øô0
+[	java:S106à"9Replace this use of System.out or System.err by a logger.(½åøªşÿÿÿÿ8Á„¼Øô0
+^	java:S125Ó"<This block of commented-out lines of code should be removed.(±Ä«üùÿÿÿÿ8Á„¼Øô0
+^	java:S125×"<This block of commented-out lines of code should be removed.(£±‹çşÿÿÿÿ8Á„¼Øô0
+[	java:S106æ"9Replace this use of System.out or System.err by a logger.(ÇŒîƒşÿÿÿÿ8Â„¼Øô0
+Y	java:S125ä"<This block of commented-out lines of code should be removed.(­‰‹ª8Â„¼Øô0
+>
+java:S3864ñ"!Remove this use of "Stream.peek".(¹úåO8ÛÀØô0
+[	java:S106ô"9Replace this use of System.out or System.err by a logger.(æáïÙşÿÿÿÿ8…•ÀØô0
+V	java:S106÷"9Replace this use of System.out or System.err by a logger.(¶ÑŠ®8öáÂØô0
+T
+java:S1128	"7Remove this unused import 'com.google.gson.JsonObject'.(µÊ´½8®ÆÀØô0
+Q
+java:S1128"4Remove this unused import 'org.w3c.dom.css.Counter'.(ªÙ•«8®ÆÀØô0
+Y
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8®ÆÀØô0
