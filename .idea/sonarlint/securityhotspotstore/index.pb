@@ -15,3 +15,17 @@ _
 /src/main/java/code_library/ListsOperations.java,1/8/18ca5ac92809e5b2cf51dbb54d79aee76dc384db
 e
 5src/main/java/code_library/UniversityWithHighest.java,e/4/e44e645cff00632745549674c2d0322d08ff2bbe
+]
+-src/main/java/code_library/MapOperations.java,5/7/57283fc4baa4f85220ce8e8b713d2cb6e2834c66
+e
+5src/main/java/coding_game/KirkAndQuestTheDescent.java,5/7/57582765d5577c73cd08c88b12beb7ac5c700865
+m
+=src/main/java/leet_code_quizes/medium/AdditiveNumber_306.java,f/e/fe2aed192e3d30c07f556e3a19196bc19932c519
+o
+?src/main/java/leet_code_quizes/easy/MaxConsecutiveOnes_485.java,7/f/7fe213c795e52dcfe4d14d3d4ff57f4f94a057f8
+u
+Esrc/main/java/leet_code_quizes/easy/RepeatedSubstringPattern_459.java,5/f/5f988abb4172046e8a6633480901a617c9d6f7b3
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/leet_code_quizes/easy/AddDigits_258.java,1/6/166bbbef16fd4a5d4b120c61d3183dca90ced5d4

@@ -10,6 +10,11 @@ public class GsonPriorityQueueBug {
 
     public static void main(String[] args) {
 
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.offer(4);
+        pq.offer(2);
+        pq.offer(1);
+
         Queue<Integer> mQueue = new PriorityQueue<>();
         mQueue.offer(4);
         mQueue.offer(2);
@@ -18,12 +23,8 @@ public class GsonPriorityQueueBug {
         mQueue.offer(3);
         mQueue.offer(5);
 
-        System.out.println(Config.ANSI_CYAN + "MyPriorityQueue: " +
-                new GsonBuilder().setPrettyPrinting().create().toJson(mQueue));
 
-        System.out.println(Config.ANSI_CYAN + "MyPriorityQueueWithoutPrettyPrint: " +
-                new Gson().toJson(mQueue));
-
+        // When using PriorityQueue don't print using gson or Arrays.toString(priorityQueue.toArray())
         while (!mQueue.isEmpty()){
             System.out.println(Config.ANSI_YELLOW + "PrintingFromWhileLoop: " + mQueue.poll());
         }
