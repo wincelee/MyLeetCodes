@@ -1,0 +1,8 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®Êºıÿÿÿÿ8’ƒÌ›„1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¼”á€8¢ƒÌ›„1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Á§ğ—øÿÿÿÿ8¤òæ›„1
+N
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8¢¬¢Ì„1
+Z
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8¤¬¢Ì„1

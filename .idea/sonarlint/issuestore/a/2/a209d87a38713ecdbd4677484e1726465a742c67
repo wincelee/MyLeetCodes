@@ -1,0 +1,8 @@
+
+y
+java:S1488‘"[Immediately return this expression instead of assigning it to the temporary variable "res".(‹æ€Ò8ĞıÎ€€1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ıÏğúÿÿÿÿ8îÄ¯€€1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(µ‰8şÄ¯€€1
+X	java:S125"<This block of commented-out lines of code should be removed.(êÖ½»8şÄ¯€€1
+H
+java:S1128"+Remove this unused import 'classes.Config'.(ÒÚ¯8§úÇ€€1

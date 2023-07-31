@@ -1,0 +1,6 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(„ˆ®ú8¯®šÏ„1
+N
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8ÙÔœÏ„1
+Z
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8ÙÔœÏ„1

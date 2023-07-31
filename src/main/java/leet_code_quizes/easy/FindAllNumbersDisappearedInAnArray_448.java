@@ -22,9 +22,12 @@ public class FindAllNumbersDisappearedInAnArray_448 {
         }
 
         for (int num: nums){
-            if (set.contains(num)){
-                set.remove(num);
-            }
+
+//            if (set.contains(num)){
+//                set.remove(num);
+//            }
+            // below code simplifies above code
+            set.remove(num);
         }
 
         return new ArrayList<>(set);
