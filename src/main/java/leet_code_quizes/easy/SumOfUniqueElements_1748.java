@@ -59,6 +59,10 @@ public class SumOfUniqueElements_1748 {
             count = 1;
 
             for (int j = 0; j < nums.length; j++){
+
+                System.out.println(Config.ANSI_BLUE + "CurrentNumsOfIOutsideIf: " + nums[i]);
+                System.out.println(Config.ANSI_GREEN + "CurrentNumsOfJOutsideIf: " + nums[j]);
+
                 if (nums[i] == nums[j] && i != j){
 
                     System.out.println(Config.ANSI_RED + "CurrentNumsOfI: " + nums[i]);
