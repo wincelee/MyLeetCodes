@@ -5,8 +5,6 @@ p
 @src/main/java/leet_code_quizes/easy/SelfDividingNumbers_728.java,a/e/ae0a76cd99d1c40b059c4a5fe8212383b05c9b38
 i
 9src/main/java/leet_code_quizes/easy/SingleNumber_136.java,b/6/b60286137423614d5058d0ffd4befc34ffdd3973
-n
->src/main/java/leet_code_quizes/easy/SortArrayByParity_905.java,3/1/311f83e65bc933fd0bb69128d03f78b98fa0fbcf
 l
 <src/main/java/leet_code_quizes/easy/TransposeMatrix_867.java,a/3/a397c7e7b52ede1d3a4b197edd7ee50f1684df07
 l
@@ -35,8 +33,6 @@ j
 :src/main/java/leet_code_quizes/easy/ReverseString_344.java,9/d/9d5fedd772ad9e51c229c246674cf4bdadba98af
 ƒ
 Ssrc/main/java/leet_code_quizes/easy/RearrangeCharactersToMakeTargetString_2287.java,6/d/6d9e8ef3ed355922f442cbdc221d2fe6e88c498f
-q
-Asrc/main/java/leet_code_quizes/easy/ReversePrefixOfWord_2000.java,c/9/c94d112a1cbcc9f041c6e4c0b34d546094e00b5f
 k
 ;src/main/java/leet_code_quizes/easy/TwoOutOfThree_2032.java,a/6/a6795642b30db372fd8e5eb9c6127c7f36507f00
 Q
@@ -89,8 +85,6 @@ e
 5src/main/java/coding_game/KirkAndQuestTheDescent.java,5/7/57582765d5577c73cd08c88b12beb7ac5c700865
 m
 =src/main/java/leet_code_quizes/medium/AdditiveNumber_306.java,f/e/fe2aed192e3d30c07f556e3a19196bc19932c519
-o
-?src/main/java/leet_code_quizes/easy/MaxConsecutiveOnes_485.java,7/f/7fe213c795e52dcfe4d14d3d4ff57f4f94a057f8
 u
 Esrc/main/java/leet_code_quizes/easy/RepeatedSubstringPattern_459.java,5/f/5f988abb4172046e8a6633480901a617c9d6f7b3
 7
